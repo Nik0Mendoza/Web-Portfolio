@@ -17,13 +17,13 @@
                 <img src="./Assets/logo.png" class="logo">
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
             <div class="header-text">
-                <p>UI/UX Designer</p>
+                <p>UI/UX Designer - Web Developer</p>
                 <h1>Hello, I'm <span>Dominic</span><br>from the Philippines</h1>
             </div>
         </div>
@@ -34,10 +34,12 @@
                 <div class="about-col-1"> <img src="./Assets/me.jpg"> </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
-                    <p>A Computer Science student with a strong inclination toward web development. Eager to leverage my
+                    <p style="text-align:justify;">A Computer Science graduate with a strong inclination towards web
+                        development. Eager to leverage my
                         coding skills and creativity to build engaging online experiences. Seeking opportunities to
                         collaborate on web projects and continuously expand my knowledge in front-end and back-end
                         development. Open to learning new technologies and contributing to innovative solutions.</p>
+                    <a href="./Assets/Mendoza,Dominic-Resume.pdf" download class="btn btn2" style="text-decoration: none; margin: 30px 0px 10px;">Download Resume</a>
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                         <p class="tab-links" onclick="opentab('experience')">Experience</p>
@@ -45,18 +47,25 @@
                     </div>
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
-                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
-                            <li><span>Web Development</span><br>Designing Web/App interfaces</li>
+                            <li><span>UI/UX</span><br>Prototype & Wireframing (Figma)</li>
+                            <li><span>Web Development</span><br>Front-end Development (HTML, CSS, JavaScript, Wordpress)
+                            </li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="experience">
                         <ul>
-                            <li><span>2023 OJT</span><br>ABBE Technology Solutions Inc. (WebDev Intern)</li>
+                            <li><span>2024 UI/UX Designer & Web Developer</span><br>Worked on a project in a start-up</li>
+                            <li><span>2023 WebDev Intern</span><br>ABBE Technology Solutions Inc.</li>
+                            <li><span>2023 WebDev Intern</span><br>BeQuik Information Solutions Inc.</li>
+
                         </ul>
                     </div>
                     <div class="tab-contents" id="education">
                         <ul>
-                            <li><span>2020-Present PUP</span><br>BS Computer Science</li>
+                            <li><span>2020-2024 Polytechnic University of the Philippines</span><br>BS Computer Science
+                                (Magna Cum Laude)</li>
+                            <li><span>2018-2020 Lemery Senior High School</span><br>Information & Communication
+                                Technology (with High Honors)</li>
                         </ul>
                     </div>
                 </div>
@@ -69,13 +78,13 @@
             <div class="services-list">
                 <div> <i class="fa-solid fa-code"></i>
                     <h2>Web Design</h2>
-                    <p>A junior web designer/developer, that is passionate about crafting digital experiences that meets
+                    <p>A junior web developer, that is passionate about crafting digital experiences that meets
                         the needs and expectations. In the early stages of my career, which means I bring fresh
-                        perspectives and a hunger to learn and grow.</p>
+                        perspectives and a hunger to learn and grow my craft.</p>
                 </div>
                 <div> <i class="fa-brands fa-uikit"></i>
                     <h2>UI/UX Design</h2>
-                    <p>A junior UI/UX Designer, that brings fresh and innovative perspectives to your digital projects.
+                    <p>A UI/UX Designer, that brings fresh and innovative perspectives to your digital projects.
                         Firm believer in the power of user-centered design to create engaging and intuitive experiences.
                     </p>
                 </div>
@@ -87,21 +96,17 @@
             <div class="row">
                 <div class="contact-left">
                     <h1 class="sub-title">Contact Me</h1>
-                    <p><i class="fa-solid fa-envelope"></i>dmncmndz02@gmail.com</p>
-                    <p><i class="fa-solid fa-phone"></i>09604655691</p>
-                    <div class="social-icons"> <a href="https://www.facebook.com/profile.php?id=100058331124988"><i
-                                class="fa-brands fa-facebook"></i></a> <a
-                            href="https://www.instagram.com/justnikkkooo/"><i class="fa-brands fa-instagram"></i></a> <a
-                            href="https://twitter.com/justnikkkooo"><i class="fa-brands fa-square-x-twitter"></i></a> <a
-                            href="https://github.com/Nik0Mendoza"><i class="fa-brands fa-github"></i></a> <a
-                            href="https://www.linkedin.com/in/dominic-mendoza-089a8a230/"><i
-                                class="fa-brands fa-linkedin"></i></a> </div><a
-                        href="./Assets/Mendoza,Dominic-Resume.pdf" download class="btn btn2">Download Resume</a>
-                </div>
-                <div class="contact-right">
-                    <form method="post"> <input type="text" name="Name" placeholder="John Doe"> <input type="email"
-                            name="Email" placeholder="jdoe@example.com" required> <textarea name="Message"
-                            rows="6"></textarea> <button type="submit" class="btn btn2">Submit</button> </form>
+                    <p><i class="fa-solid fa-envelope" style="margin-right: 10px;"></i>dmncmndz02@gmail.com</p>
+                    <p><i class="fa-solid fa-phone" style="margin-right: 10px;"></i>09604655691</p>
+                    <div class="contact-right">
+                        <div class="social-icons"> <a href="https://www.facebook.com/profile.php?id=100058331124988"><i
+                                    class="fa-brands fa-facebook"></i></a> <a
+                                href="https://www.instagram.com/justnikkkooo/"><i
+                                    class="fa-brands fa-instagram"></i></a> <a href="https://github.com/Nik0Mendoza"><i
+                                    class="fa-brands fa-github"></i></a> <a
+                                href="https://www.linkedin.com/in/dominic-mendoza-089a8a230/"><i
+                                    class="fa-brands fa-linkedin"></i></a> </div>
+                    </div>
                 </div>
             </div>
         </div>

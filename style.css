@@ -28,11 +28,14 @@ body {
 }
 
 #header {
-    width: 100%;
+    width: auto;
     height: 100vh;
     background-image: url('/Assets/bg.png');
-    background-size: cover;
-    background-position: center
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-right: 80px;
+
 }
 
 .container {
@@ -66,7 +69,7 @@ nav ul li a::after {
     bottom: -6px
 }
 
-.contact-right form,
+.contact-right,
 nav ul li a:hover::after {
     width: 100%
 }
